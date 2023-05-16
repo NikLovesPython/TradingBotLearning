@@ -68,3 +68,4 @@ def helper_inpereter(i, j):
 
 data = get_trend(dataF)
 print(data["{}-{}".format(dataF.index.tolist()[0], dataF.index.tolist()[1])])
+print(dataF)
